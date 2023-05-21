@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("E:\TXON\\t03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* ... existing styles ... */
+
+button.delete-button {
+    padding: 8px 16px;
+    background-color:purple; /* red color */
+    display: flex;
+    color: #fff;
+    border: 20px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  button.delete-button:hover {
+    background-color: #d32f2f; /* darker shade of red on hover */
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(252, 255, 255);
+    font-display: 60px;
+    font-weight: bold;
+  }
+  
+  #app {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color:purple;
+    color: #fff;
+    border: 20px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #taskList {
+    margin-top: 16px;
+  }
+  
+  .task {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #f2f2f2;
+  }
+  
+  .filter-input {
+    margin-bottom: 8px;
+  }
+  
